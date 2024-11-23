@@ -3,8 +3,8 @@ Simple async low-level data transfer in Python, that use encryption.
 
 ## Torrent file
 
-This is structure of torrent file:
-<code lang="text">127.0.0.1  # IP-address to connect/bind
+This is structure of torrent file:<code lang="text">
+  127.0.0.1  # IP-address to connect/bind
   8080       # Port to connect/bind
   img.jpg    # File to transfer
   key        # Encryption key</code>
